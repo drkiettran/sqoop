@@ -1,5 +1,5 @@
 #!/bin/bash
-echo example: sqoop_rdbms.bash jdbc:mysql://172.17.0.2:3306/sakila student password actor /user/student/sakila
+echo example: sqoop_rdbms.bash jdbc:mysql://172.17.0.2:3306/sakila?useSSL=false student password actor /user/student/sakila
 # $1: jdbc:mysql:host:port/db 
 # $2: user
 # $3: password
